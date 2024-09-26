@@ -1,4 +1,4 @@
-import streamlit as st
+﻿import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
 
 st.title = "Quick Start app"
@@ -12,7 +12,7 @@ def generate_response(input_text):
 with st.form("my_form"):
 	text=st.text_area(
 		"Enter text:",
-		"What are the three key pieces of advice for learning how to code?",
+		"Làm thế nào để xây dựng ứng dụng RAG với Streamlit và Langchain?",
 		)
 	submitted= st.form_submit_button("Submit")
 	if not openai_api_key.startswith("sk"):
