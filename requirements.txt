@@ -2,3 +2,6 @@ streamlit
 openai
 langchain
 langchain-openai
+chromadb
+tiktoken
+langchain-community
