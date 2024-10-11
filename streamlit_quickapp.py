@@ -55,7 +55,7 @@ st.title = "FINAL PROJECT"
 st.header="Personal AI Assisstant"
 # Sidebar
 with st.sidebar:	
-	openai_api_key = st.text_input("OpenAI API Key","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", type="password")
+	openai_api_key = st.text_input("OpenAI API Key", type="password")
 	# File upload
 	uploaded_file=st.file_uploader('Upload your file:',type='txt')
 	#if st.button("Load Data"):
